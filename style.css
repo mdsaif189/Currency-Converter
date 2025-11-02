@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+
+
+
+    background-image: linear-gradient(250deg, #3B2667 50%, #580295 20%);
+
+    /*animation: rotate-bg-color 30s infinite;*/
+    /*background: #3F5EFB;
+background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /*  background-color: rgb(78, 102, 173) ;*/
+    color: rgb(114, 214, 225);
+
+}
+
+/*@keyframes rotate-bg-color {
+    0% {
+        background-color: steelblue;
+    }
+
+    10% {
+        background-color: rgb(45, 7, 125);
+    }
+
+    20% {
+        background-color: rgb(1, 68, 5);
+    }
+
+    30% {
+        background-color: rgb(81, 1, 49);
+    }
+
+    40% {
+        background-color: rgb(2, 82, 100);
+    }
+
+    50% {
+        background-color: rgb(60, 3, 37);
+    }
+
+    60% {
+        background-color: indigo;
+    }
+
+    70% {
+        background-color: rgb(226, 31, 226);
+    }
+
+    80% {
+        background-color: rgb(10, 126, 77);
+    }
+
+    90% {
+        background-color: brown;
+    }
+
+    100% {
+        background-color: rgb(11, 1, 33);
+    }
+}*/
+
+
+.h1 {
+    font-size: 2rem;
+}
+
+.container {
+    background: linear-gradient(to right, rgb(52, 11, 199), rgb(1, 14, 55), rgb(6, 6, 175));
+    padding: 2rem;
+    border-radius: 1.5rem;
+    min-height: 50vh;
+    width: 40vh;
+    box-shadow: 5px 10px 5px rgba(13, 32, 156, 0.3);
+
+
+}
+
+.container:hover {
+    transform: scale(1.15) rotateY(10deg);
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+    color: rgb(240, 243, 243);
+
+}
+
+form select,
+button,
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid black;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+
+
+}
+
+.dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+
+}
+
+.dropdown i:hover {
+    transform: scale(1.05) rotateY(10deg);
+}
+
+.select-container img {
+    max-width: 2rem;
+
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    gap: 2.5px;
+
+
+
+}
+
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.msg {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+.btn {
+    height: 3rem;
+    padding: 10px;
+    font-size: 1rem;
+
+
+    background-color: rgb(11, 11, 149);
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+
+    background-color: rgb(65, 11, 11);
+    transform: scale(1.15) rotateY(10deg);
+}
+
+.select-container select:hover {
+    background-color: rgb(130, 204, 233);
+    transform: scale(1.05) rotateY(5deg);
+}
+
+form input:hover {
+    background-color: rgb(130, 204, 233);
+    transform: scale(1.05) rotateY(5deg);
+}
